@@ -9,3 +9,8 @@
 
 module.exports = (async () => await import("./index.mjs"))();
 module.exports.File = (async () => await import("./File.mjs"))();
+module.exports = (async () => await import("./index.mjs"))();
+module.exports.File = (async () => await import("./File.mjs"))();
+
+module.exports = (async () => await import("./index.mjs"))();
+module.exports.File = (async () => await import("./File.mjs"))();
