@@ -69,6 +69,11 @@ async function generateChangelog() {
       let mergeWithPrReferenceRegex = /\(#(\d+)\)$/m;
       let result = {
         sha: commitInfo.sha,
+          
+          
+          
+          
+          
       };
 
       if (mergeFromBranchRegex.test(message)) {
