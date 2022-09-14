@@ -30,6 +30,9 @@ self.addEventListener("message", function(e) {
         self.loadFile(r.file, r.inputNum);
     } else if (Object.prototype.hasOwnProperty.call(r, "file")) {
         self.loadFile(r.file, "");
+
+        
+        
     } else if (Object.prototype.hasOwnProperty.call(r, "id")) {
         self.id = r.id;
     }
@@ -68,9 +71,7 @@ self.loadFile = function(file, inputNum) {
         seek();
     };
 
-    reader.onerror = function(e) {
-        self.postMessage({"error": reader.error.message, "inputNum": inputNum, "id": self.id});
-    };
+    
 
     seek();
 };
