@@ -144,6 +144,12 @@ module.exports = {
         // testOp(browser, "From Hex Content", "test input", "test_output");
         // testOp(browser, "From Hexdump", "test input", "test_output");
         // testOp(browser, "From MessagePack", "test input", "test_output");
+        
+        
+        
+        
+        
+        
         // testOp(browser, "From Morse Code", "test input", "test_output");
         // testOp(browser, "From Octal", "test input", "test_output");
         // testOp(browser, "From Punycode", "test input", "test_output");
